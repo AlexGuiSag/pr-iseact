@@ -18,6 +18,7 @@ defmodule LiveViewTodisWeb.Router do
     pipe_through :browser
 
     live "/", TodoLive, :index
+    get "/about-us", PageController, :about
   end
 
   # Other scopes may use custom stacks.
