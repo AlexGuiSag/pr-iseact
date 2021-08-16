@@ -1,0 +1,3 @@
+<h1> Yo Soy un about</h1>
+
+<p style="margin-top: 20px;">Usuario: <%= is_user_a_power_ranger(@user) %>
